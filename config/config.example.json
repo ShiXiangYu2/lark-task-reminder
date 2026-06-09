@@ -1,0 +1,25 @@
+{
+  "lark": {
+    "app_id": "${LARK_APP_ID}",
+    "app_secret": "${LARK_APP_SECRET}"
+  },
+  "reminder": {
+    "enabled": true,
+    "beforeHours": 2,
+    "repeatInterval": 60,
+    "maxPerDay": 10
+  },
+  "notify": {
+    "channel": "direct",
+    "userId": "",
+    "groupId": ""
+  },
+  "schedule": {
+    "dailyReport": "09:00",
+    "checkInterval": 30
+  },
+  "storage": {
+    "dataDir": "./data",
+    "backupEnabled": true
+  }
+}
